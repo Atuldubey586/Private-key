@@ -17,7 +17,7 @@ while True:
     ranInt = randint(0, 2500)
     if ranInt <= 1:
       randomBTC = randint(1,100)/100
-      print(Fore.WHITE + "> 0x" + secrets.token_hex(32) + Fore.GREEN + " > " + str(randomBTC) + " BTC ($" + str("{:,}".format(round(btcval*randomBTC,2))) + ")")
+      print(Fore.WHITE + "> 414ebfe886361d9e9cb2f5d46bfe1c3f1523fe808306" + secrets.token_hex(32) + Fore.GREEN + " > " + str(randomBTC) + " BTC ($" + str("{:,}".format(round(btcval*randomBTC,2))) + ")")
       answer = input("> Would you like to continue? (Y/N")
       if answer.lower() == "y":
         continuing = True
