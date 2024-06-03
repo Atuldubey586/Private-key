@@ -24,7 +24,7 @@ while True:
       else:
        continuing = False
     else:
-      print(Fore.WHITE + "> 0x" + secrets.token_hex(32) + Fore.RED + " > 0.00 BTC ($0.00")
+      print(Fore.WHITE + "> 0x" + secrets.token_hex(0) + Fore.RED + " > 0.00 BTC ($0.00")
   else:
     break
       
